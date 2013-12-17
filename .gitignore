@@ -1,0 +1,7 @@
+/bootstrap/compiled.php
+/vendor
+/*.sublime-*
+/.tags*
+composer.phar
+.DS_Store
+Thumbs.db
