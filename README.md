@@ -1,4 +1,4 @@
-Sample [Laravel 4.1](http://laravel.com) application with [AuthorityController](https://github.com/efficiently/authority-controller) package
+[Laravel 4.1](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller) package
 =====================
 
 The Laravel framework utilizes [Composer](http://getcomposer.org/) for installation and dependency management. If you haven't already, start by [installing Composer](http://getcomposer.org/doc/00-intro.md).
