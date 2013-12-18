@@ -66,9 +66,10 @@ class SessionsController extends \BaseController {
   /**
    * Remove the specified resource from session.
    *
+   * @param  int  $id
    * @return Response
    */
-  public function destroy()
+  public function destroy($id)
   {
       // Log out
       Auth::logout();
