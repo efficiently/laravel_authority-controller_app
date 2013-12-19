@@ -25,8 +25,8 @@ Add the aliases (facades) to your Laravel app config file:
     'Authority' => 'Efficiently\AuthorityController\Facades\Authority',
 ```
 
-Configure your application database, for this turotial we use SQLite.
-In app/config/database.php`
+Configure your application database, for this tutorial we use SQLite.
+In `app/config/database.php`
 ```php
   'default' => 'sqlite',
 ```
