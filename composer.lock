@@ -92,12 +92,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "53438675f6b006d848db8ad0d46eb9e51c3e62c4"
+                "reference": "da72e339342141ccd9a7269e4e995e6c71b55867"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/53438675f6b006d848db8ad0d46eb9e51c3e62c4",
-                "reference": "53438675f6b006d848db8ad0d46eb9e51c3e62c4",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/da72e339342141ccd9a7269e4e995e6c71b55867",
+                "reference": "da72e339342141ccd9a7269e4e995e6c71b55867",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "role",
                 "security"
             ],
-            "time": "2013-12-17 13:24:23"
+            "time": "2013-12-20 15:32:22"
         },
         {
             "name": "filp/whoops",
@@ -305,12 +305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "4c7dd3c0eddc471b20bf57f7ea7789c2ecab248e"
+                "reference": "4884222dc15c49719df476fb8070b4fff180b231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/4c7dd3c0eddc471b20bf57f7ea7789c2ecab248e",
-                "reference": "4c7dd3c0eddc471b20bf57f7ea7789c2ecab248e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4884222dc15c49719df476fb8070b4fff180b231",
+                "reference": "4884222dc15c49719df476fb8070b4fff180b231",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +414,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2013-12-13 18:42:36"
+            "time": "2013-12-19 02:01:12"
         },
         {
             "name": "machuga/authority",
@@ -751,12 +751,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3"
+                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
-                "reference": "df8c3723aa0e575a3fccaf91acb79091d46bb2f3",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/0dc8b27a6a47c22a20efd7172fd71d88234869ca",
+                "reference": "0dc8b27a6a47c22a20efd7172fd71d88234869ca",
                 "shasum": ""
             },
             "require": {
@@ -837,7 +837,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2013-12-11 22:30:13"
+            "time": "2013-12-17 19:55:56"
         },
         {
             "name": "predis/predis",
@@ -845,12 +845,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a"
+                "reference": "b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
-                "reference": "56627f30f83e1adf5e27c8d44bf0f55eaeab801a",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1",
+                "reference": "b45f87caf2aac0c9d84b35d60ccf4e8cc74c8dc1",
                 "shasum": ""
             },
             "require": {
@@ -884,7 +884,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-12-17 12:00:39"
+            "time": "2013-12-19 10:51:45"
         },
         {
             "name": "psr/log",
