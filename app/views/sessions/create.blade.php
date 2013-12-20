@@ -14,6 +14,7 @@
         <div class="controls">
             {{ Form::text('email', Input::old('email')) }}
             {{ $errors->first('email') }}
+            <span class="help-inline">Try: <em>admin@localhost</em></span>
         </div>
     </div>
 
@@ -24,6 +25,7 @@
         <div class="controls">
             {{ Form::password('password') }}
             {{ $errors->first('password') }}
+            <span class="help-inline">Try: <em>password</em></span>
         </div>
     </div>
 
