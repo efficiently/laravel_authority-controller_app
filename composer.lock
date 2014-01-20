@@ -54,16 +54,16 @@
         },
         {
             "name": "d11wtq/boris",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/d11wtq/boris.git",
-                "reference": "7db59be30dad2e6f902db348e21a939215fbd967"
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/d11wtq/boris/zipball/7db59be30dad2e6f902db348e21a939215fbd967",
-                "reference": "7db59be30dad2e6f902db348e21a939215fbd967",
+                "url": "https://api.github.com/repos/d11wtq/boris/zipball/125dd4e5752639af7678a22ea597115646d89c6e",
+                "reference": "125dd4e5752639af7678a22ea597115646d89c6e",
                 "shasum": ""
             },
             "require": {
@@ -84,20 +84,20 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-11-18 12:13:16"
+            "time": "2014-01-17 12:21:18"
         },
         {
             "name": "efficiently/authority-controller",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "145639dc58f866c740ab8007217f8251b3b3033e"
+                "reference": "1fcd703ebcde3fbedf8da51138c263faadfea8da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/145639dc58f866c740ab8007217f8251b3b3033e",
-                "reference": "145639dc58f866c740ab8007217f8251b3b3033e",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/1fcd703ebcde3fbedf8da51138c263faadfea8da",
+                "reference": "1fcd703ebcde3fbedf8da51138c263faadfea8da",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "role",
                 "security"
             ],
-            "time": "2014-01-16 08:22:53"
+            "time": "2014-01-20 09:10:21"
         },
         {
             "name": "filp/whoops",
@@ -301,16 +301,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.1.17",
+            "version": "v4.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022"
+                "reference": "ad5a69c4fb949a7c7c4a57a356c6288f4455749f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/97f5fece6ce23a25581dde2a28f4ffc175405022",
-                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ad5a69c4fb949a7c7c4a57a356c6288f4455749f",
+                "reference": "ad5a69c4fb949a7c7c4a57a356c6288f4455749f",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +414,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-01-16 04:17:29"
+            "time": "2014-01-17 20:04:20"
         },
         {
             "name": "machuga/authority",
@@ -820,16 +820,16 @@
         },
         {
             "name": "predis/predis",
-            "version": "v0.8.4",
+            "version": "v0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrk/predis.git",
-                "reference": "cb18d67b6ab6b8e567c1ab50fe999d1d624f9884"
+                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/cb18d67b6ab6b8e567c1ab50fe999d1d624f9884",
-                "reference": "cb18d67b6ab6b8e567c1ab50fe999d1d624f9884",
+                "url": "https://api.github.com/repos/nrk/predis/zipball/5f2eea628eb465d866ad2771927d83769c8f956c",
+                "reference": "5f2eea628eb465d866ad2771927d83769c8f956c",
                 "shasum": ""
             },
             "require": {
@@ -863,7 +863,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2013-07-27 09:13:54"
+            "time": "2014-01-16 14:10:29"
         },
         {
             "name": "psr/log",
