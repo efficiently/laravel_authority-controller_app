@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.1.*",
-		"efficiently/authority-controller": "1.1.*"
+		"efficiently/authority-controller": "1.2.*"
 	},
 	"autoload": {
 		"classmap": [
