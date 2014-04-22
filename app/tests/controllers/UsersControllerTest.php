@@ -25,9 +25,10 @@ class UsersControllerTest extends TestCase
     public function testRenderIndexIfHaveReadAbilityOnUser()
     {
         $admin = User::where('name', 'Administrator')->firstOrFail();
-        $roleAdmin = Role::firstOrCreate(['name' => 'admin']);
         if (! $admin->hasRole('admin')) {
+            $roleAdmin = Role::firstOrCreate(['name' => 'admin']);
             $admin->roles()->attach($roleAdmin->id);
+            $admin->load('roles'); // Reload the model to update the roles association, Eloquent come on!
         }
 
         $this->loginAs($admin);
@@ -51,7 +52,6 @@ class UsersControllerTest extends TestCase
         }
 
         $authority = $this->loginAs($user);
-
         $authority->allow('destroy', 'User', function($self, $user) {
             return $self->user()->id === $user->id;
         });
