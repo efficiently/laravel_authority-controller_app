@@ -63,6 +63,7 @@ class CreateUsersTable extends Migration {
           $table->string('email')->unique();
           $table->string('name');
           $table->string('password');
+          $table->string('remember_token', 100)->nullable();
           $table->timestamps();
       });
   }
@@ -142,7 +143,7 @@ This will create the following tables
 - role_user
 - permissions
 
-To utilize these tables, you can add the following methods to your `User` model. You will also need to create Role and Permission Model stubs.
+To utilize these tables, you can add the following methods to your `User` model (you can copy paste this [one](https://gist.githubusercontent.com/denvers/10828426/raw/530be8ffd4c6da5d363a3749b03b87ddad3a1702/User.php)). You will also need to create Role and Permission Model stubs.
 ```php
     //app/models/User.php
     public function roles()
