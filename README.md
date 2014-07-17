@@ -27,7 +27,7 @@ Add the aliases (facades) to your Laravel app config file:
 
 Configure your application database, for this tutorial we use SQLite.
 
-So you need to enable php_sqlite3 and php_pdo_sqlite extensions in your php.ini file.
+So you need to enable `php_sqlite3` and `php_pdo_sqlite` extensions in your `php.ini` file.
 
 In `app/config/database.php`
 ```php
@@ -38,7 +38,7 @@ To create the users table we will use artisan, We hope you know how to use it. L
 
 Console:
 ```bash
-php artisan migrate:make create_users_table
+php artisan migrate:make create_users_table --table=users --create
 ```
 
 You can find the php file artisan has created under `app/database/migrations`.
@@ -49,6 +49,7 @@ Let's define a migration that looks like this:
 <?php
 //app/database/migrations/........_create_users_table.php:
 
+use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class CreateUsersTable extends Migration {
@@ -60,8 +61,7 @@ class CreateUsersTable extends Migration {
    */
   public function up()
   {
-      Schema::create('users', function($table)
-      {
+      Schema::create('users', function(Blueprint $table) {
           $table->increments('id');
           $table->string('email')->unique();
           $table->string('name');
