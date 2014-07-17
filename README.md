@@ -26,6 +26,9 @@ Add the aliases (facades) to your Laravel app config file:
 ```
 
 Configure your application database, for this tutorial we use SQLite.
+
+So you need to enable php_sqlite3 and php_pdo_sqlite extensions in your php.ini file.
+
 In `app/config/database.php`
 ```php
   'default' => 'sqlite',
