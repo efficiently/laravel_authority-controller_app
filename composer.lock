@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "644178f5e5c85e3ed58b70b6cfd0c324",
+    "hash": "73c140df539cab3c15dcc2df60408773",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -89,26 +89,26 @@
         },
         {
             "name": "efficiently/authority-controller",
-            "version": "1.2.1",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "8e5298bad738a5251a85b0c79b0288f9f66c7cd8"
+                "reference": "b23227025672b29e5f3eb57c7f7b8f154172cfb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/8e5298bad738a5251a85b0c79b0288f9f66c7cd8",
-                "reference": "8e5298bad738a5251a85b0c79b0288f9f66c7cd8",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/b23227025672b29e5f3eb57c7f7b8f154172cfb0",
+                "reference": "b23227025672b29e5f3eb57c7f7b8f154172cfb0",
                 "shasum": ""
             },
             "require": {
-                "machuga/authority-l4": "2.1.*",
+                "machuga/authority-l4": "2.2.*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "orchestra/testbench": "2.1.*",
-                "phpunit/phpunit": "3.7.*"
+                "orchestra/testbench": "2.2.*",
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
             "extra": {
@@ -161,7 +161,7 @@
                 "role",
                 "security"
             ],
-            "time": "2014-04-22 09:43:19"
+            "time": "2014-08-13 15:10:41"
         },
         {
             "name": "filp/whoops",
@@ -479,16 +479,16 @@
         },
         {
             "name": "machuga/authority-l4",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/machuga/authority-l4.git",
-                "reference": "dccf9b0a9047879d7a748b64d9286fb4b0e022aa"
+                "reference": "016ddd3892ec8c07c830f7e34e48bf8c63e022dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/machuga/authority-l4/zipball/dccf9b0a9047879d7a748b64d9286fb4b0e022aa",
-                "reference": "dccf9b0a9047879d7a748b64d9286fb4b0e022aa",
+                "url": "https://api.github.com/repos/machuga/authority-l4/zipball/016ddd3892ec8c07c830f7e34e48bf8c63e022dd",
+                "reference": "016ddd3892ec8c07c830f7e34e48bf8c63e022dd",
                 "shasum": ""
             },
             "require": {
@@ -541,7 +541,7 @@
                 "authorization",
                 "laravel"
             ],
-            "time": "2014-01-21 05:35:56"
+            "time": "2014-03-13 16:49:16"
         },
         {
             "name": "monolog/monolog",
