@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f32bf9bb9a2b11578eae2e107d2bb431",
+    "hash": "2cc19be6373c781a34fb317d5bfce35d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "8b72799838985448dd1f578ef454c2c5d31ed4e2"
+                "reference": "c728bfc5f1aeda970db27e9476f0784d9b86a50b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/8b72799838985448dd1f578ef454c2c5d31ed4e2",
-                "reference": "8b72799838985448dd1f578ef454c2c5d31ed4e2",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/c728bfc5f1aeda970db27e9476f0784d9b86a50b",
+                "reference": "c728bfc5f1aeda970db27e9476f0784d9b86a50b",
                 "shasum": ""
             },
             "require": {
@@ -300,7 +300,7 @@
                 "role",
                 "security"
             ],
-            "time": "2015-02-23 18:11:43"
+            "time": "2015-02-23 18:31:35"
         },
         {
             "name": "ircmaxell/password-compat",
