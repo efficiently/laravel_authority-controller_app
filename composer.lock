@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24c3946acc997e3f3eca7fc5c99585b2",
+    "hash": "f32bf9bb9a2b11578eae2e107d2bb431",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -221,6 +221,86 @@
                 "string"
             ],
             "time": "2014-12-20 21:24:13"
+        },
+        {
+            "name": "efficiently/authority-controller",
+            "version": "2.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/efficiently/authority-controller.git",
+                "reference": "8b72799838985448dd1f578ef454c2c5d31ed4e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/8b72799838985448dd1f578ef454c2c5d31ed4e2",
+                "reference": "8b72799838985448dd1f578ef454c2c5d31ed4e2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "stayallive/authority-l5": "2.4.*"
+            },
+            "require-dev": {
+                "laravelcollective/html": "~5.0",
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "3.0.*",
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0": "1.0.x-dev",
+                    "dev-1.1": "1.1.x-dev",
+                    "dev-1.2": "1.2.x-dev",
+                    "dev-2.0": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/migrations",
+                    "tests/AcTestCase.php",
+                    "tests/helpers",
+                    "tests/fixtures/",
+                    "tests/fixtures/models",
+                    "tests/fixtures/controllers"
+                ],
+                "files": [
+                    "src/Efficiently/AuthorityController/helpers.php"
+                ],
+                "psr-0": {
+                    "Efficiently\\AuthorityController": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TortueTorche",
+                    "email": "tortuetorche@spam.me"
+                }
+            ],
+            "description": "AuthorityController is an PHP authorization library for Laravel 5 which restricts what resources a given user is allowed to access.",
+            "keywords": [
+                "Authentication",
+                "ability",
+                "acl",
+                "allow",
+                "authority",
+                "authorization",
+                "can",
+                "cancan",
+                "deny",
+                "laravel",
+                "laravel 5",
+                "permission",
+                "rails",
+                "rbac",
+                "role",
+                "security"
+            ],
+            "time": "2015-02-23 18:11:43"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -930,6 +1010,119 @@
                 "shell"
             ],
             "time": "2015-02-12 19:35:52"
+        },
+        {
+            "name": "stayallive/authority",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stayallive/authority.git",
+                "reference": "477721fc0a3c206c1886e90e3415754d92904f8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stayallive/authority/zipball/477721fc0a3c206c1886e90e3415754d92904f8d",
+                "reference": "477721fc0a3c206c1886e90e3415754d92904f8d",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/events": "~5.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.7.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Authority": "src/"
+                }
+            },
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Machuga",
+                    "email": "machuga@gmail.com"
+                },
+                {
+                    "name": "Koen Schmeets",
+                    "email": "hello@koenschmeets.nl"
+                },
+                {
+                    "name": "Jesse O'Brien",
+                    "email": "jesse@jesse-obrien.ca"
+                }
+            ],
+            "description": "A simple and flexible authorization system for PHP",
+            "support": {
+                "source": "https://github.com/Stayallive/authority/tree/2.2.1"
+            },
+            "time": "2015-01-18 23:19:54"
+        },
+        {
+            "name": "stayallive/authority-l5",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Stayallive/authority-l5.git",
+                "reference": "a4a9bf850288aadfccfbcdbb30d8f277bc358461"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Stayallive/authority-l5/zipball/a4a9bf850288aadfccfbcdbb30d8f277bc358461",
+                "reference": "a4a9bf850288aadfccfbcdbb30d8f277bc358461",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.3.0",
+                "stayallive/authority": "2.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Authority\\AuthorityL5": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Matthew Machuga",
+                    "email": "machuga@gmail.com"
+                },
+                {
+                    "name": "Koen Schmeets",
+                    "email": "hello@koenschmeets.nl"
+                },
+                {
+                    "name": "Jesse O'Brien",
+                    "email": "jesse@jesse-obrien.ca"
+                },
+                {
+                    "name": "Conar Welsh",
+                    "email": "conar@welshlabs.com"
+                }
+            ],
+            "description": "A simple and flexible authorization system for PHP",
+            "homepage": "https://github.com/stayallive/authority-l5",
+            "keywords": [
+                "authentication",
+                "authorization",
+                "laravel",
+                "laravel 5"
+            ],
+            "support": {
+                "source": "https://github.com/Stayallive/authority-l5/tree/2.4.0",
+                "issues": "https://github.com/Stayallive/authority-l5/issues"
+            },
+            "time": "2015-02-15 22:24:53"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2791,9 +2984,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
