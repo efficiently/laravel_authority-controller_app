@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "c728bfc5f1aeda970db27e9476f0784d9b86a50b"
+                "reference": "a7f78be3f9df4c541c786522ba4fb2777a5ba2c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/c728bfc5f1aeda970db27e9476f0784d9b86a50b",
-                "reference": "c728bfc5f1aeda970db27e9476f0784d9b86a50b",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/a7f78be3f9df4c541c786522ba4fb2777a5ba2c9",
+                "reference": "a7f78be3f9df4c541c786522ba4fb2777a5ba2c9",
                 "shasum": ""
             },
             "require": {
@@ -300,7 +300,7 @@
                 "role",
                 "security"
             ],
-            "time": "2015-02-23 18:31:35"
+            "time": "2015-02-25 19:05:02"
         },
         {
             "name": "ircmaxell/password-compat",
