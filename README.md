@@ -31,4 +31,6 @@ You should see: __Administrator__.
 
 Congratulations, You have the basics to use `AuthorityController`!
 
-You can read how this demo was build [HERE](demo_making_of.md).
+Now, You can read the [doc](https://github.com/efficiently/authority-controller/blob/2.0/README.md#check-authority-rules--authorization) to add more authorization rules.
+
+You can also read how this demo was build [HERE](demo_making_of.md).
