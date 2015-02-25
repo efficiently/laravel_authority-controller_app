@@ -303,7 +303,7 @@ Now let's modify our `UsersController` to add a constructor and complete `index`
   //...
   public function __construct()
   {
-      $this->loadAndAuthorizeResource(['class' => 'App\User']);
+      $this->loadAndAuthorizeResource();
   }
 
   /**

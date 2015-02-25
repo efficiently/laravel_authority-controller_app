@@ -9,7 +9,7 @@ class UsersController extends Controller {
 
 	public function __construct()
 	{
-		$this->loadAndAuthorizeResource(['class' => 'App\User']);
+		$this->loadAndAuthorizeResource();
 	}
 
 	/**
