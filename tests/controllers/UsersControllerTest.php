@@ -1,7 +1,7 @@
 <?php
 
 use App\User;
-use App\Role;
+use App\Authority\Role;
 use Efficiently\AuthorityController\Authority;
 
 class UsersControllerTest extends TestCase
@@ -30,7 +30,6 @@ class UsersControllerTest extends TestCase
         if (! $admin->hasRole('admin')) {
             $roleAdmin = Role::firstOrCreate(['name' => 'admin']);
             $admin->roles()->attach($roleAdmin->id);
-            $admin->load('roles'); // Reload the model to update the roles association, Eloquent come on!
         }
 
         $this->loginAs($admin);
