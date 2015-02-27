@@ -228,20 +228,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "a7f78be3f9df4c541c786522ba4fb2777a5ba2c9"
+                "reference": "7ddede471a53cbdc1b7b63dd085ec51ed68f7d97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/a7f78be3f9df4c541c786522ba4fb2777a5ba2c9",
-                "reference": "a7f78be3f9df4c541c786522ba4fb2777a5ba2c9",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/7ddede471a53cbdc1b7b63dd085ec51ed68f7d97",
+                "reference": "7ddede471a53cbdc1b7b63dd085ec51ed68f7d97",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "stayallive/authority-l5": "2.4.*"
+                "stayallive/authority-l5": "~2.4.1"
             },
             "require-dev": {
-                "laravelcollective/html": "~5.0",
+                "illuminate/html": "5.0.*",
                 "mockery/mockery": "0.9.*",
                 "orchestra/testbench": "3.0.*",
                 "phpunit/phpunit": "~4.5"
@@ -300,7 +300,7 @@
                 "role",
                 "security"
             ],
-            "time": "2015-02-25 19:05:02"
+            "time": "2015-02-27 18:35:13"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -490,16 +490,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.6",
+            "version": "v5.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "43637b796f1ac0b1a960984231251ff04b438006"
+                "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/43637b796f1ac0b1a960984231251ff04b438006",
-                "reference": "43637b796f1ac0b1a960984231251ff04b438006",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c263240daa383e6b9bd979600dc61dcb2c436d53",
+                "reference": "c263240daa383e6b9bd979600dc61dcb2c436d53",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +516,7 @@
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.0",
                 "php": ">=5.4.0",
-                "psy/psysh": "0.3.*",
+                "psy/psysh": "0.4.*",
                 "swiftmailer/swiftmailer": "~5.1",
                 "symfony/console": "2.6.*",
                 "symfony/debug": "2.6.*",
@@ -611,7 +611,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-20 16:22:21"
+            "time": "2015-02-27 00:32:38"
         },
         {
             "name": "league/flysystem",
@@ -943,16 +943,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.3.5",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "2ce0e8f3020fd292c2ad2a496c5d83939823f642"
+                "reference": "3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2ce0e8f3020fd292c2ad2a496c5d83939823f642",
-                "reference": "2ce0e8f3020fd292c2ad2a496c5d83939823f642",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b",
+                "reference": "3787f3436f4fd898e0ac1eb6f5abd2ab6b24085b",
                 "shasum": ""
             },
             "require": {
@@ -970,6 +970,7 @@
             },
             "suggest": {
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
+                "ext-pdo-sqlite": "The doc command requires SQLite to work.",
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
                 "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
             },
@@ -1009,7 +1010,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2015-02-12 19:35:52"
+            "time": "2015-02-25 20:35:54"
         },
         {
             "name": "stayallive/authority",
@@ -1069,16 +1070,16 @@
         },
         {
             "name": "stayallive/authority-l5",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Stayallive/authority-l5.git",
-                "reference": "a4a9bf850288aadfccfbcdbb30d8f277bc358461"
+                "reference": "f56583e409f7c71255709702f06248eb9f9a4b24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Stayallive/authority-l5/zipball/a4a9bf850288aadfccfbcdbb30d8f277bc358461",
-                "reference": "a4a9bf850288aadfccfbcdbb30d8f277bc358461",
+                "url": "https://api.github.com/repos/Stayallive/authority-l5/zipball/f56583e409f7c71255709702f06248eb9f9a4b24",
+                "reference": "f56583e409f7c71255709702f06248eb9f9a4b24",
                 "shasum": ""
             },
             "require": {
@@ -1119,10 +1120,10 @@
                 "laravel 5"
             ],
             "support": {
-                "source": "https://github.com/Stayallive/authority-l5/tree/2.4.0",
+                "source": "https://github.com/Stayallive/authority-l5/tree/2.4.1",
                 "issues": "https://github.com/Stayallive/authority-l5/issues"
             },
-            "time": "2015-02-15 22:24:53"
+            "time": "2015-02-27 18:20:28"
         },
         {
             "name": "swiftmailer/swiftmailer",
