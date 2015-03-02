@@ -1,6 +1,8 @@
 [Laravel 5](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller/tree/2.0) package
 =====================
 
+[![Build Status](https://travis-ci.org/efficiently/laravel_authority-controller_app.svg?branch=2.0)](https://travis-ci.org/efficiently/laravel_authority-controller_app)
+
 The Laravel framework utilizes [Composer](http://getcomposer.org/) for installation and dependency management. If you haven't already, start by [installing Composer](http://getcomposer.org/doc/00-intro.md).
 
 The easiest way to play with Authority-Controller, is to `git clone` this Laravel 5.0 demo application:
