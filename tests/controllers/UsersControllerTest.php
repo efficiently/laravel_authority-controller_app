@@ -3,6 +3,7 @@
 use App\User;
 use App\Authority\Role;
 use Efficiently\AuthorityController\Authority;
+use SuperClosure\Serializer;
 
 class UsersControllerTest extends TestCase
 {
@@ -74,6 +75,10 @@ class UsersControllerTest extends TestCase
         $this->app['authority'] = new Authority($user);
         $authority = $this->app->make('authority');
         $fn = $fn ?: $this->app['config']->get('authority-controller.initialize');
+        $serializer = new Serializer;
+        if (is_string($fn)) {
+            $fn = $serializer->unserialize($fn);
+        }
 
         if ($fn) {
             $fn($authority);
