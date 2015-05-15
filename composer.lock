@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "2cc19be6373c781a34fb317d5bfce35d",
@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "6231136609fb2ff4220c7e5036dc4f5812fb7fd2"
+                "reference": "4e2f0f81f2a6965042e67f545486b6c660c14ea2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/6231136609fb2ff4220c7e5036dc4f5812fb7fd2",
-                "reference": "6231136609fb2ff4220c7e5036dc4f5812fb7fd2",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/4e2f0f81f2a6965042e67f545486b6c660c14ea2",
+                "reference": "4e2f0f81f2a6965042e67f545486b6c660c14ea2",
                 "shasum": ""
             },
             "require": {
@@ -300,7 +300,7 @@
                 "role",
                 "security"
             ],
-            "time": "2015-05-15 10:29:25"
+            "time": "2015-05-15 15:09:11"
         },
         {
             "name": "ircmaxell/password-compat",
