@@ -7,6 +7,126 @@
     "hash": "2cc19be6373c781a34fb317d5bfce35d",
     "packages": [
         {
+            "name": "authority-php/authority",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/authority-php/authority.git",
+                "reference": "fe89591278e0767719134717ee27d36c4d8adf60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/authority-php/authority/zipball/fe89591278e0767719134717ee27d36c4d8adf60",
+                "reference": "fe89591278e0767719134717ee27d36c4d8adf60",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/events": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~2.0",
+                "mockery/mockery": "0.7.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Authority": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Machuga",
+                    "email": "machuga@gmail.com"
+                },
+                {
+                    "name": "Koen Schmeets",
+                    "email": "hello@koenschmeets.nl"
+                },
+                {
+                    "name": "Jesse O'Brien",
+                    "email": "jesse@jesse-obrien.ca"
+                },
+                {
+                    "name": "Tortue Torche",
+                    "email": "tortuetorche@spam.me"
+                }
+            ],
+            "description": "A simple and flexible authorization system for PHP",
+            "time": "2015-05-16 10:35:15"
+        },
+        {
+            "name": "authority-php/authority-laravel",
+            "version": "2.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/authority-php/authority-laravel.git",
+                "reference": "0bfd16859255e8138f07e1357e0da0059fb636ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/authority-php/authority-laravel/zipball/0bfd16859255e8138f07e1357e0da0059fb636ea",
+                "reference": "0bfd16859255e8138f07e1357e0da0059fb636ea",
+                "shasum": ""
+            },
+            "require": {
+                "authority-php/authority": "~2.2.2",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Authority\\AuthorityLaravel": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Machuga",
+                    "email": "machuga@gmail.com"
+                },
+                {
+                    "name": "Koen Schmeets",
+                    "email": "hello@koenschmeets.nl"
+                },
+                {
+                    "name": "Jesse O'Brien",
+                    "email": "jesse@jesse-obrien.ca"
+                },
+                {
+                    "name": "Conar Welsh",
+                    "email": "conar@welshlabs.com"
+                },
+                {
+                    "name": "Tortue Torche",
+                    "email": "tortuetorche@spam.me"
+                }
+            ],
+            "description": "A simple and flexible authorization system for PHP",
+            "homepage": "https://github.com/authority-php/authority-laravel",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "laravel",
+                "laravel 5"
+            ],
+            "time": "2015-05-16 10:49:08"
+        },
+        {
             "name": "classpreloader/classpreloader",
             "version": "1.3.0",
             "source": {
@@ -228,17 +348,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "4e2f0f81f2a6965042e67f545486b6c660c14ea2"
+                "reference": "dfb9d77351698dee80733c37afc66f3adbe95892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/4e2f0f81f2a6965042e67f545486b6c660c14ea2",
-                "reference": "4e2f0f81f2a6965042e67f545486b6c660c14ea2",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/dfb9d77351698dee80733c37afc66f3adbe95892",
+                "reference": "dfb9d77351698dee80733c37afc66f3adbe95892",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
-                "stayallive/authority-l5": "~2.4.1"
+                "authority-php/authority-laravel": "~2.4.3",
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "illuminate/html": "5.0.*",
@@ -300,7 +420,7 @@
                 "role",
                 "security"
             ],
-            "time": "2015-05-15 15:09:11"
+            "time": "2015-05-16 11:04:53"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1014,119 +1134,6 @@
                 "shell"
             ],
             "time": "2015-03-26 18:43:54"
-        },
-        {
-            "name": "stayallive/authority",
-            "version": "2.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Stayallive/authority.git",
-                "reference": "477721fc0a3c206c1886e90e3415754d92904f8d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Stayallive/authority/zipball/477721fc0a3c206c1886e90e3415754d92904f8d",
-                "reference": "477721fc0a3c206c1886e90e3415754d92904f8d",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/events": "~5.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.7.*",
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Authority": "src/"
-                }
-            },
-            "license": [
-                "mit"
-            ],
-            "authors": [
-                {
-                    "name": "Matthew Machuga",
-                    "email": "machuga@gmail.com"
-                },
-                {
-                    "name": "Koen Schmeets",
-                    "email": "hello@koenschmeets.nl"
-                },
-                {
-                    "name": "Jesse O'Brien",
-                    "email": "jesse@jesse-obrien.ca"
-                }
-            ],
-            "description": "A simple and flexible authorization system for PHP",
-            "support": {
-                "source": "https://github.com/Stayallive/authority/tree/2.2.1"
-            },
-            "time": "2015-01-18 23:19:54"
-        },
-        {
-            "name": "stayallive/authority-l5",
-            "version": "2.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Stayallive/authority-l5.git",
-                "reference": "7340f738c8f3a9e507a7bd9736c5e9e84042a7e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Stayallive/authority-l5/zipball/7340f738c8f3a9e507a7bd9736c5e9e84042a7e8",
-                "reference": "7340f738c8f3a9e507a7bd9736c5e9e84042a7e8",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "~5.0",
-                "php": ">=5.3.0",
-                "stayallive/authority": "2.2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Authority\\AuthorityL5": "src/"
-                }
-            },
-            "authors": [
-                {
-                    "name": "Matthew Machuga",
-                    "email": "machuga@gmail.com"
-                },
-                {
-                    "name": "Koen Schmeets",
-                    "email": "hello@koenschmeets.nl"
-                },
-                {
-                    "name": "Jesse O'Brien",
-                    "email": "jesse@jesse-obrien.ca"
-                },
-                {
-                    "name": "Conar Welsh",
-                    "email": "conar@welshlabs.com"
-                }
-            ],
-            "description": "A simple and flexible authorization system for PHP",
-            "homepage": "https://github.com/stayallive/authority-l5",
-            "keywords": [
-                "authentication",
-                "authorization",
-                "laravel",
-                "laravel 5"
-            ],
-            "support": {
-                "source": "https://github.com/Stayallive/authority-l5/tree/2.4.2",
-                "issues": "https://github.com/Stayallive/authority-l5/issues"
-            },
-            "time": "2015-03-21 20:30:17"
         },
         {
             "name": "swiftmailer/swiftmailer",
