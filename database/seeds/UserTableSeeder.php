@@ -5,7 +5,6 @@ use App\User;
 
 class UserTableSeeder extends Seeder
 {
-
     public function run()
     {
         // !!! All existing users are deleted !!!

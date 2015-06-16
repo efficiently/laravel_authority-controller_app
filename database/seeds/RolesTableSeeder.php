@@ -6,7 +6,6 @@ use App\Authority\Role;
 
 class RolesTableSeeder extends Seeder
 {
-
     public function run()
     {
         // !!! All existing roles are deleted !!!
