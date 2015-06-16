@@ -1,4 +1,4 @@
-[Laravel 5.1](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller/tree/2.0) package
+[Laravel 5.1](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller/tree/master) package
 =====================
 
 [![Build Status](https://travis-ci.org/efficiently/laravel_authority-controller_app.svg?branch=master)](https://travis-ci.org/efficiently/laravel_authority-controller_app)

@@ -18,7 +18,7 @@ composer create-project laravel/laravel your-project-name --prefer-dist
 Add `authority-controller` package to your `composer.json` file to require AuthorityController:
 ```bash
 cd your-project-name/
-composer require efficiently/authority-controller:dev-master
+composer require efficiently/authority-controller:2.1.*
 ```
 
 Add the service provider to `config/app.php`:

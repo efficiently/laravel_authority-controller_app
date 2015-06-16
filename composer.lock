@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0030a53f0b597f03b6dafdf812f549ba",
+    "hash": "15e06bbbf081d7317468ceb39e38c17f",
     "packages": [
         {
             "name": "authority-php/authority",
@@ -348,12 +348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/efficiently/authority-controller.git",
-                "reference": "b97a3dd8ef0894d7bc912d9bb19d1779f2aaa31d"
+                "reference": "4b8539ddf2a0b4168ab1cb83af2b75328b51c952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/b97a3dd8ef0894d7bc912d9bb19d1779f2aaa31d",
-                "reference": "b97a3dd8ef0894d7bc912d9bb19d1779f2aaa31d",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/4b8539ddf2a0b4168ab1cb83af2b75328b51c952",
+                "reference": "4b8539ddf2a0b4168ab1cb83af2b75328b51c952",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,8 @@
                     "dev-1.0": "1.0.x-dev",
                     "dev-1.1": "1.1.x-dev",
                     "dev-1.2": "1.2.x-dev",
-                    "dev-2.0": "2.0.x-dev"
+                    "dev-2.0": "2.0.x-dev",
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -404,6 +405,7 @@
             "description": "AuthorityController is an PHP authorization library for Laravel 5 which restricts what resources a given user is allowed to access.",
             "keywords": [
                 "Authentication",
+                "Laravel 5.1",
                 "ability",
                 "acl",
                 "allow",
@@ -420,7 +422,7 @@
                 "role",
                 "security"
             ],
-            "time": "2015-06-16 11:27:46"
+            "time": "2015-06-16 12:26:04"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3018,9 +3020,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "efficiently/authority-controller": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
