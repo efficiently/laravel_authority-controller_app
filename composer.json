@@ -5,8 +5,8 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "5.0.*",
-		"efficiently/authority-controller": "2.0.*"
+		"laravel/framework": "5.1.*",
+		"efficiently/authority-controller": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

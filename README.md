@@ -1,7 +1,7 @@
 [Laravel 5](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller/tree/2.0) package
 =====================
 
-[![Build Status](https://travis-ci.org/efficiently/laravel_authority-controller_app.svg?branch=2.0)](https://travis-ci.org/efficiently/laravel_authority-controller_app)
+[![Build Status](https://travis-ci.org/efficiently/laravel_authority-controller_app.svg?branch=master)](https://travis-ci.org/efficiently/laravel_authority-controller_app)
 
 
 For [**Laravel 4.2**](http://laravel.com/docs/4.2) supports, see the [1.0 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/1.0) of this demo.
