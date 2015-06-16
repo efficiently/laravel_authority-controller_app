@@ -1,6 +1,8 @@
 [Laravel 4.2](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller) package
 =====================
 
+For [**Laravel 5.0**](http://laravel.com/docs/5.0) supports, see the [2.0 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/2.0) of this demo.
+
 The Laravel framework utilizes [Composer](http://getcomposer.org/) for installation and dependency management. If you haven't already, start by [installing Composer](http://getcomposer.org/doc/00-intro.md).
 
 Now you can install Laravel by issuing the following command from your terminal:
