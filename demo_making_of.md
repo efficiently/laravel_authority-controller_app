@@ -1,9 +1,9 @@
-Making of the [Laravel 5](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller/tree/2.0) package
+Making of the [Laravel 5.1](http://laravel.com) sample application with [AuthorityController](https://github.com/efficiently/authority-controller) package
 =====================
 
 TL;DR
 -----
-You can get the demo application [HERE](https://github.com/efficiently/laravel_authority-controller_app/tree/2.0#readme).
+You can get the demo application [HERE](https://github.com/efficiently/laravel_authority-controller_app#readme).
 
 How to recreate this demo
 -------------------------
@@ -18,7 +18,7 @@ composer create-project laravel/laravel your-project-name --prefer-dist
 Add `authority-controller` package to your `composer.json` file to require AuthorityController:
 ```bash
 cd your-project-name/
-composer require efficiently/authority-controller:2.0.*
+composer require efficiently/authority-controller:dev-master
 ```
 
 Add the service provider to `config/app.php`:
@@ -258,13 +258,13 @@ Edit your `app/Http/Controllers/Controller.php` file to add the `ControllerAddit
 ```php
 <?php namespace App\Http\Controllers;
 
-use Illuminate\Foundation\Bus\DispatchesCommands;
+use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 
 abstract class Controller extends BaseController
 {
-    use DispatchesCommands, ValidatesRequests;
+    use DispatchesJobs, ValidatesRequests;
     use \Efficiently\AuthorityController\ControllerAdditions;
 
     //code...
