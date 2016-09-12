@@ -4,9 +4,129 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "27cfd9aa16b7200aa19cff425438b85d",
+    "content-hash": "fd842f30c8e1890de91922e3065d3264",
     "packages": [
+        {
+            "name": "authority-php/authority",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/authority-php/authority.git",
+                "reference": "fe89591278e0767719134717ee27d36c4d8adf60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/authority-php/authority/zipball/fe89591278e0767719134717ee27d36c4d8adf60",
+                "reference": "fe89591278e0767719134717ee27d36c4d8adf60",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/events": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jeremeamia/superclosure": "~2.0",
+                "mockery/mockery": "0.7.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Authority": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Machuga",
+                    "email": "machuga@gmail.com"
+                },
+                {
+                    "name": "Koen Schmeets",
+                    "email": "hello@koenschmeets.nl"
+                },
+                {
+                    "name": "Jesse O'Brien",
+                    "email": "jesse@jesse-obrien.ca"
+                },
+                {
+                    "name": "Tortue Torche",
+                    "email": "tortuetorche@spam.me"
+                }
+            ],
+            "description": "A simple and flexible authorization system for PHP",
+            "time": "2015-05-16 10:35:15"
+        },
+        {
+            "name": "authority-php/authority-laravel",
+            "version": "2.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/authority-php/authority-laravel.git",
+                "reference": "0bfd16859255e8138f07e1357e0da0059fb636ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/authority-php/authority-laravel/zipball/0bfd16859255e8138f07e1357e0da0059fb636ea",
+                "reference": "0bfd16859255e8138f07e1357e0da0059fb636ea",
+                "shasum": ""
+            },
+            "require": {
+                "authority-php/authority": "~2.2.2",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Authority\\AuthorityLaravel": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Machuga",
+                    "email": "machuga@gmail.com"
+                },
+                {
+                    "name": "Koen Schmeets",
+                    "email": "hello@koenschmeets.nl"
+                },
+                {
+                    "name": "Jesse O'Brien",
+                    "email": "jesse@jesse-obrien.ca"
+                },
+                {
+                    "name": "Conar Welsh",
+                    "email": "conar@welshlabs.com"
+                },
+                {
+                    "name": "Tortue Torche",
+                    "email": "tortuetorche@spam.me"
+                }
+            ],
+            "description": "A simple and flexible authorization system for PHP",
+            "homepage": "https://github.com/authority-php/authority-laravel",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "laravel",
+                "laravel 5"
+            ],
+            "time": "2015-05-16 10:49:08"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -160,6 +280,84 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "efficiently/authority-controller",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/efficiently/authority-controller.git",
+                "reference": "ecec2150b38d8a0e0744bbc24122dc5c49d28045"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/efficiently/authority-controller/zipball/ecec2150b38d8a0e0744bbc24122dc5c49d28045",
+                "reference": "ecec2150b38d8a0e0744bbc24122dc5c49d28045",
+                "shasum": ""
+            },
+            "require": {
+                "authority-php/authority-laravel": "~2.4.3",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "laravelcollective/html": "5.3.*",
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "~3.3.0",
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0": "1.0.x-dev",
+                    "dev-1.1": "1.1.x-dev",
+                    "dev-1.2": "1.2.x-dev",
+                    "dev-2.0": "2.0.x-dev",
+                    "dev-2.1": "2.1.x-dev",
+                    "dev-2.2": "2.2.x-dev",
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Efficiently/AuthorityController/helpers.php"
+                ],
+                "psr-0": {
+                    "Efficiently\\AuthorityController": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "TortueTorche",
+                    "email": "tortuetorche@spam.me"
+                }
+            ],
+            "description": "AuthorityController is an PHP authorization library for Laravel 5 which restricts what resources a given user is allowed to access.",
+            "keywords": [
+                "Authentication",
+                "Laravel 5.1",
+                "Laravel 5.2",
+                "ability",
+                "acl",
+                "allow",
+                "authority",
+                "authorization",
+                "can",
+                "cancan",
+                "deny",
+                "laravel",
+                "laravel 5",
+                "laravel 5.3",
+                "permission",
+                "rails",
+                "rbac",
+                "role",
+                "security"
+            ],
+            "time": "2016-09-12 15:22:06"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -3424,9 +3622,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.4"
