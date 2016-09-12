@@ -5,11 +5,11 @@
 
 For [**Laravel 5.2**](http://laravel.com/docs/5.2) supports, see the [2.2 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/2.2) of this demo.
 
-For [**Laravel 5.1**](http://laravel.com/docs/5.1) supports, see the [2.1 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/2.1) of this demo.
+For [Laravel 5.1](http://laravel.com/docs/5.1) supports, see the [2.1 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/2.1) of this demo.
 
-For [**Laravel 5.0**](http://laravel.com/docs/5.0) supports, see the [2.0 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/2.0) of this demo.
+For [Laravel 5.0](http://laravel.com/docs/5.0) supports, see the [2.0 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/2.0) of this demo.
 
-For [**Laravel 4.2**](http://laravel.com/docs/4.2) supports, see the [1.0 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/1.0) of this demo.
+For [Laravel 4.2](http://laravel.com/docs/4.2) supports, see the [1.0 branch](https://github.com/efficiently/laravel_authority-controller_app/tree/1.0) of this demo.
 
 The Laravel framework utilizes [Composer](http://getcomposer.org/) for installation and dependency management. If you haven't already, start by [installing Composer](http://getcomposer.org/doc/00-intro.md).
 
@@ -29,7 +29,7 @@ You should see an `AccessDenied` exception.
 
 With this error message: __You are not authorized to access this page.__.
 
-Go to: [http://localhost:8000/auth/login](http://localhost:8000/auth/login)
+Go to: [http://localhost:8000/login](http://localhost:8000/login)
 
 Fill the login form with `admin@localhost.com` and `password` then click on the `Login` button.
 
